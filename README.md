@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="#代表项目">代表项目</a> ·
-  <a href="https://github.com/Darssal/Research-Code-Collection/blob/main/docs/ENGINEERING_NOTES.md">工程笔记</a> ·
-  <a href="https://github.com/Darssal/Research-Code-Collection">代码合集</a>
+  <a href="https://github.com/Darssal/FracLogGPT-Lite">多模态项目</a> ·
+  <a href="https://github.com/Darssal/Research-Code-Collection/tree/main/projects/memlab">Agent 记忆</a> ·
+  <a href="https://github.com/Darssal/Research-Code-Collection/blob/main/docs/ENGINEERING_NOTES.md">工程笔记</a>
 </p>
 
 **多模态模型适配 · Agent 记忆 · Python 实验工程**
