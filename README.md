@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Darssal — Multimodal AI, Python and reproducible experiments" width="100%">
+  <img src="assets/profile-banner.svg" alt="Darssal — Multimodal AI, Python and research code" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/Darssal/FracLogGPT-Lite">项目介绍</a> ·
-  <a href="https://github.com/Darssal/FracLogGPT-Lite/blob/main/docs/QUICKSTART.md">无 GPU 快速验证</a> ·
-  <a href="https://github.com/Darssal/FracLogGPT-Lite/tree/main/tests">查看测试</a>
+  <a href="https://github.com/Darssal/FracLogGPT-Lite">多模态项目</a> ·
+  <a href="https://github.com/Darssal/Research-Code-Collection">研究代码合集</a> ·
+  <a href="https://github.com/Darssal/FracLogGPT-Lite/blob/main/docs/QUICKSTART.md">无 GPU 快速验证</a>
 </p>
 
-关注多模态模型适配与 Python 实验工程。当前公开项目是 **FracLogGPT-Lite**，围绕成像测井裂缝解释组织数据处理、模型适配、推理与评测。
+关注多模态模型适配与 Python 实验工程。这里整理成像测井裂缝解释、招聘文本分类和多层 Agent 记忆实验的代码，提供源码、运行说明与离线测试入口。
 
 ## [FracLogGPT-Lite](https://github.com/Darssal/FracLogGPT-Lite)
 
@@ -24,8 +24,15 @@
 
 [数据处理](https://github.com/Darssal/FracLogGPT-Lite/blob/main/src/fraclog/data.py)负责 SFT / 偏好格式转换、图像引用检查和数据集划分；[评测模块](https://github.com/Darssal/FracLogGPT-Lite/blob/main/src/fraclog/metrics.py)解析参考与预测文本中的计数、位置和形态标签，计算文本标签一致性及过计数 / 欠计数等指标。
 
-### 快速验证
-
 公共代码测试与阶段命令预演无需 GPU、模型权重或私有测井资料，步骤见[使用指南](https://github.com/Darssal/FracLogGPT-Lite/blob/main/docs/QUICKSTART.md)。
 
-公开仓库包含代码、实验配置、测试与合成格式示例；真实资料、权重和实验结果未公开，模型效果需由实际实验验证。
+## [Research Code Collection](https://github.com/Darssal/Research-Code-Collection)
+
+将其它研究代码整理为独立子工程，移除真实数据、凭据、论文材料和历史运行产物，并补充合成示例与提交检查。
+
+| 子项目 | 实现重点 | 阅读入口 |
+| --- | --- | --- |
+| 招聘文本分类 | 中文字符 TF-IDF + 随机森林、可选 BERT、带超时与有界重试的外部服务适配 | [源码与运行说明](https://github.com/Darssal/Research-Code-Collection/tree/main/projects/job-text-classification) · [测试](https://github.com/Darssal/Research-Code-Collection/tree/main/projects/job-text-classification/tests) |
+| 多层 Agent 记忆 | 上下文预算、缓存与持久化接口、检索注入策略、实验有效性检查 | [源码与运行说明](https://github.com/Darssal/Research-Code-Collection/tree/main/projects/memlab) · [测试](https://github.com/Darssal/Research-Code-Collection/tree/main/projects/memlab/tests) |
+
+公开内容包含代码、配置、测试与合成示例；真实资料、权重和实验结果未公开。离线测试验证代码行为，完整训练、外部服务集成与模型效果需要另行配置和实际实验。
