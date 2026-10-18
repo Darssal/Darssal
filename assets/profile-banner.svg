@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Darssal — Multimodal AI, Python, and reproducible experiments</title>
+  <desc id="description">A dark profile banner with mint and cyan accents, the Darssal username, and an abstract arrangement of connected geometric layers.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1723"/>
+      <stop offset="1" stop-color="#101F2B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="860" y1="70" x2="1130" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#88EED0"/>
+      <stop offset="1" stop-color="#6DCDE8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#background)"/>
+  <rect x=".5" y=".5" width="1199" height="299" rx="19.5" fill="none" stroke="#304450"/>
+  <path d="M56 55H88" stroke="#88EED0" stroke-width="3" stroke-linecap="round"/>
+  <text x="102" y="60" fill="#9CB4C3" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2.5">GITHUB / DARSSAL</text>
+  <text x="56" y="151" fill="#EFF6F8" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="-2.5">Darssal</text>
+  <text x="58" y="196" fill="#BED0DA" font-family="Arial, Helvetica, sans-serif" font-size="22">Multimodal AI · Python · Reproducible experiments</text>
+  <path d="M58 239H751" stroke="#304450"/>
+  <text x="58" y="265" fill="#819AA9" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2">PROJECTS / CODE / EXPERIMENTS</text>
+  <g fill="none" stroke="#2A4352" stroke-width="1">
+    <path d="M824 28V272M900 28V272M976 28V272M1052 28V272M1128 28V272"/>
+    <path d="M800 74H1158M800 150H1158M800 226H1158"/>
+  </g>
+  <g fill="#102532" stroke="url(#accent)" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M872 178L979 116L1086 178L979 240Z" opacity=".35"/>
+    <path d="M872 148L979 86L1086 148L979 210Z" opacity=".65"/>
+    <path d="M872 118L979 56L1086 118L979 180Z"/>
+  </g>
+  <g fill="none" stroke="#88EED0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M920 118L950 101M920 118L950 135M1038 118L1008 101M1038 118L1008 135"/>
+    <path d="M989 98L968 138" stroke="#6DCDE8"/>
+  </g>
+  <g fill="#88EED0">
+    <circle cx="872" cy="118" r="3"/>
+    <circle cx="1086" cy="118" r="3"/>
+    <circle cx="979" cy="56" r="3"/>
+  </g>
+</svg>
