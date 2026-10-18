@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <a href="https://darssal.github.io/">个人网站</a> ·
   <a href="https://github.com/Darssal/FracLogGPT-Lite">多模态项目</a> ·
   <a href="https://github.com/Darssal/Research-Code-Collection/tree/main/projects/memlab">Agent 记忆</a> ·
   <a href="https://github.com/Darssal/Research-Code-Collection/blob/main/docs/ENGINEERING_NOTES.md">工程笔记</a>
