@@ -2,7 +2,7 @@
 
 [Academic Homepage](https://darssal.github.io/) · [Public CV](https://darssal.github.io/cv.html) · [Engineering Notes](https://github.com/Darssal/Research-Code-Collection/blob/main/docs/ENGINEERING_NOTES.md)
 
-我是中国石油大学（北京）克拉玛依校区数据科学与大数据技术专业本科生，预计 **2027 年毕业**，专业成绩排名 **3/94（2026.09）**。
+我是中国石油大学（北京）数据科学与大数据技术专业本科生，预计 **2027 年毕业**，专业成绩排名 **3/94（2026.09）**。
 
 **2027 Postgraduate Destination · 保研去向：中国科学院大学（UCAS）／中国科学院计算技术研究所（ICT），计算机科学与技术，2027 级，尚未入学。**
 
