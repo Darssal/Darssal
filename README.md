@@ -6,14 +6,14 @@
 
 **2027 Postgraduate Destination · 保研去向：中国科学院大学（UCAS）／中国科学院计算技术研究所（ICT），计算机科学与技术，2027 级，尚未入学。**
 
-研究兴趣包括多模态大模型、Agent 记忆与检索增强，近期工作围绕成像测井裂缝解释、长上下文记忆评测和招聘文本标注展开。以第一作者身份发表 **2 篇 SCI-E 论文**；另有 **1 篇 IEEE SMC 2026 录用论文（共同一作，作者首位）**。
+研究兴趣包括多模态大模型、Agent 记忆与检索增强，近期工作围绕成像测井裂缝解释、长上下文记忆评测和招聘文本标注展开。已发表多篇 SCI 论文。
 
 ## Research
 
 ### [Persistent Retrieval in Hierarchical Memory Systems for Long-Context Agents: A Controlled Evaluation](https://conf.papercept.net/conferences/conferences/SMC26/program/SMC26_ContentListWeb_3.html#tua16_05)
 
 **Hushuang Shen\***, Yuan Wang\*<br>
-**IEEE SMC 2026 · Accepted · 共同一作，作者首位**（\* Equal contribution）
+**IEEE SMC 2026 · Accepted · 共同一作**（\* Equal contribution）
 
 固定模型、解码、提示与检索预算，在长上下文任务中比较记忆配置，分析证据充足与稀缺条件下持久检索的作用。
 
@@ -37,43 +37,16 @@
 
 [DOI](https://doi.org/10.3390/electronics15010127) · [Publisher](https://www.mdpi.com/2079-9292/15/1/127) · [FracLogGPT-Lite](https://github.com/Darssal/FracLogGPT-Lite)
 
-## Selected Projects
-
-### [FracLogGPT-Lite](https://github.com/Darssal/FracLogGPT-Lite)
-
-**Multimodal Experiment Framework** · `Python` `PyTorch` `Transformers` `PEFT / LoRA` `ms-swift`
-
-组织成像测井实验的阶段衔接与可恢复推理：配置驱动训练命令，解析 checkpoint 接续下游，以稳定样本键恢复预测；视觉对比解码同步原图与扰动图分支，并维护 KV cache 和多模态字段。
-
-[Decoding](https://github.com/Darssal/FracLogGPT-Lite/blob/main/src/fraclog/vcd.py) · [Resumable Inference](https://github.com/Darssal/FracLogGPT-Lite/blob/main/src/fraclog/predictions.py) · [Quickstart](https://github.com/Darssal/FracLogGPT-Lite/blob/main/docs/QUICKSTART.md)
-
-### [MemLab](https://github.com/Darssal/MemLab)
-
-**Agent Memory & Controlled Evaluation** · `Python 3.12` `asyncio` `Redis` `PostgreSQL` `Qdrant`
-
-将近期上下文、热缓存、元数据与持久检索接入统一记忆接口；为检索结果去重、控制上下文预算，用 ContextVar 区分异步会话，并根据运行有效性检查生成重跑计划。
-
-[Architecture](https://github.com/Darssal/MemLab/blob/main/docs/ARCHITECTURE.md) · [Memory Policy](https://github.com/Darssal/MemLab/blob/main/memlab/memory_manager/manager.py) · [Evaluation Control](https://github.com/Darssal/MemLab/blob/main/memlab/pipeline/control_plane.py) · [Offline Checks](https://github.com/Darssal/MemLab/blob/main/docs/TESTING.md)
-
-### [Recruitment-Text-Classification](https://github.com/Darssal/Recruitment-Text-Classification)
-
-**Text Classification Baselines & HTTP Batching** · `scikit-learn` `TF-IDF` `Random Forest` `ThreadPoolExecutor`
-
-提供中文字符 TF-IDF／随机森林基线、可选 BERT 路径和统一 CSV／JSONL 接口。划分训练集后拟合词表，按实际类别顺序对齐概率；HTTP 批处理设置超时、有界重试和输入顺序恢复。
-
-[Baseline](https://github.com/Darssal/Recruitment-Text-Classification/blob/main/src/job_text_classification/baseline.py) · [HTTP Adapter](https://github.com/Darssal/Recruitment-Text-Classification/blob/main/src/job_text_classification/http_adapter.py) · [Regression Checks](https://github.com/Darssal/Recruitment-Text-Classification/blob/main/tests/test_regressions.py)
-
 ## Research Experience
 
 - **基于时序Transformer的跨井域泛化测井预测系统** · 在研，2026.06–2027.06（计划）。研究方向：时序 Transformer、跨井域泛化与测井预测。
-- **国家级大学生创新训练项目** · 项目成员，2026.09 结题。项目为“基于联合时空注意力机制和多模态大模型的地层信息处理系统——油田数据预测和隐私安全研究”；参与 Web 平台开发、地质数据读取与可视化，以及裂缝识别的多模态任务验证。
+- **国家级大学生创新训练项目** · 项目成员，2026.09 结题。项目为“基于联合时空注意力机制和多模态大模型的地层信息处理系统”；参与 Web 平台开发、地质数据读取与可视化，以及裂缝识别的多模态任务验证。
 
 ## Selected Honors
 
-- **2025** · 第十八届先进机器人及仿真技术大赛 · 国赛一等奖
-- **2025** · 睿抗机器人开发者大赛（RAICOM），编程技能竞赛 · 全国总决赛三等奖
-- **2025** · 全国高校计算机能力挑战赛，C++ 本科组 · 全国决赛三等奖
-- **2026** · Interdisciplinary Contest In Modeling（ICM）· Honorable Mention
+- **2025** · 全国高校计算机能力挑战赛 C++ 本科组全国决赛三等奖
+- **2026** · ICM Honorable Mention（团队）
+- **2025** · 第十六届蓝桥杯新疆赛区 C/C++ 大学 A 组一等奖
 
 完整研究、荣誉与教育信息见 [Academic Homepage](https://darssal.github.io/) 与 [Public CV](https://darssal.github.io/cv.html)。
 
